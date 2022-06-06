@@ -1,0 +1,21 @@
+:root {
+    --color-primary-darken: hsl(171, 66%, 44%);
+    --color-primary-lighten: hsl(233, 100%, 69%);
+    --color-grey-darken: hsl(210, 10%, 33%);
+    --color-grey-lighten: hsl(201, 11%, 66%);
+}
+
+*,*::after,*::before {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%; // 1rem = 10px
+}
+
+body {
+    margin: 0;
+    font-size: 1.8rem;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 400;
+}
